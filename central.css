@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    background-color: lightskyblue;
+}
+
+h1 {
+    margin: 0px;
+    padding: 20px;
+    text-align: center;
+    background-color: lightseagreen;
+}
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.itens {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.717);
+}
+
+#mensal {
+    background-color: darkorchid;
+    border-radius: 10px;
+    width: 40vw;
+}
+
+#avulso {
+    background-color: rgb(173, 110, 204);
+    border-radius: 10px;
+    width: 40vw;
+}
+
+#mensal:hover {
+    background-color: rgb(133, 38, 177);
+    width: 45vw;
+}
+
+#avulso:hover {
+    background-color: rgb(127, 71, 155);
+    width: 45vw;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
