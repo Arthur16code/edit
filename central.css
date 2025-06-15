@@ -4,7 +4,7 @@ body {
     background-color: lightskyblue;
 }
 
-h1 {
+header {
     margin: 0px;
     padding: 20px;
     text-align: center;
@@ -49,4 +49,8 @@ h1 {
 a {
     text-decoration: none;
     color: black;
+}
+
+h1 {
+    margin: 0px;
 }
