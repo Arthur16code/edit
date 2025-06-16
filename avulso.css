@@ -21,7 +21,6 @@ h1 {
 }
 
 a {
-    text-decoration: none;
     color: black;
 }
 
@@ -36,4 +35,15 @@ img {
     width: 95%;
     border-radius: 10px;
     margin: 5px;
+}
+
+.obs {
+    background-color: rgb(120, 195, 197);
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.obs > h2 {
+    text-align: center;
 }
